@@ -1,0 +1,579 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+/*Hoja de Inicio */
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+
+body{
+  background: #02010a;
+}
+  .contenido{
+    background:#fff;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 9px 9px;
+ }
+ header{
+   background: #5b7989;
+   width: 900px;
+   height: 70px;
+   border-radius: 15px 15px 0px 0px;
+   display: flex;
+   flex-direction: row;
+ }
+
+header{
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-top: 150%;
+    height: 300%
+  }
+  to {
+    margin-top: -5%;
+    height: 100%;
+  }
+}
+.encabezado{
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+.titulo{
+  float: left;
+  display: inline;
+  }
+.menu{
+    float: right;
+    display: inline;
+    margin-top: 20px;
+}
+ li{
+   display: inline;
+   height: 100%;
+   padding: 15px;
+   list-style-type: none;
+ }
+ a{
+   color: #FFFFFF;
+   font-family: "Dancing Script";
+   text-decoration: none;
+   font-size: 1.5em;
+   text-shadow: 2px 2px #02010a;
+ }
+h1{
+  font-family: "Dancing Script";
+  font-size: 2em;
+  color: #FFFFFF;
+  padding: 15px;
+  text-shadow: 2px 2px #02010a;
+}
+#central{
+  background: #82c3a6;
+  width: 900px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+}
+#fotocentral{
+  width: 470px;
+  height: auto;
+  padding-top: 5px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  filter: drop-shadow(2px 2px 2px);
+
+}
+.izquierdere{
+  width: 900px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.textopai{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: -250px;
+  left: -210px;
+}
+.textoretra{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: -250px;
+  left: -190px;
+}
+.izquierda{
+width: 450px;
+height: 300px;
+background: #d5c75f;
+display: flex;
+flex-direction: row;
+margin: auto;
+position: relative;
+}
+.derecha{
+width: 450px;
+height: 300px;
+background: #d5c75f;
+display: flex;
+flex-direction: row;
+margin: auto;
+position: relative;
+}
+#paisajeizquierda{
+  width: 350px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  top: -30px;
+  left: 35px;
+  filter: drop-shadow(2px 2px 2px);
+  }
+#paisajeizquierda{
+  -webkit-transition:-webkit-transform 1s ease-out;
+  transition: transform 1s ease-out;
+}
+#paisajeizquierda:hover{
+  -webkit-transform:rotate(10deg);
+  transform: rotate(10deg);
+}
+#retratoderecha{
+  width: 350px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  top: -30px;
+  left: 40px;
+  filter: drop-shadow(2px 2px 2px);
+}
+#retratoderecha{
+  -webkit-transition:-webkit-transform 1s ease-out;
+  transition: transform 1s ease-out;
+  }
+#retratoderecha:hover{
+  -webkit-transform: translate(20px,-5px);
+  transform: translate(20px,-5px);
+}
+footer{
+  background: #5b7989;
+  width: 900px;
+  height: 180px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.contacto{
+  width: 25%;
+  height: 150;
+  background: #C6d5c5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 0px 10px;
+}
+.politicas{
+  width: 25%;
+  height: 150;
+  background: #C6d5c5;
+  display: flex;
+  flex-direction: column;
+}
+.redes{
+  width: 25%;
+  height: 150;
+  background: #C6d5c5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.derechos{
+  width: 25%;
+  height: 150;
+  background: #C6d5c5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 10px 0px;
+}
+h2{
+  font-family: "Dancing Script";
+  color: #02010a;
+  text-align: center;
+  text-decoration: underline;
+}
+p{
+  font-family: "Dancing Script";
+  color: #02010a;
+}
+#facebook{
+  float: left;
+  display: block;
+  position: relative;
+  top: -40px;
+  left: 40px;
+}
+  #fac{
+    position: relative;
+    left: 3px;
+    top: 8px;
+}
+#twitter{
+  float: left;
+  display: block;
+  position: relative;
+  top: -50px;
+  left: 59px;
+}
+#twi{
+  position: relative;
+  left: 0px;
+  top: -30px;
+}
+#youtube{
+  float: left;
+  display: block;
+  position: relative;
+  top: -60px;
+  left: 53px;
+}
+#you{
+  position: relative;
+  left: 0px;
+  top: -35px;
+}
+/* fin hoja de Inicio */
+
+#fondocentralpaisajes{
+  background: #d5c75f;
+  width: 900px;
+  height: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+#fondocentralretratos{
+  background: #d5c75f;
+  width: 900px;
+  height: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+#fondocentralpaisajes1{
+  padding: 25px;
+  padding-top: 50px;
+}
+#fondocentralpaisajes2{
+  padding: 25px;
+  padding-bottom: 50px;
+}
+#fondocentralretratos1{
+  padding: 25px;
+  padding-top: 50px;
+}
+#fondocentralretratos2{
+  padding: 25px;
+  padding-bottom: 50px;
+  }
+  #pj1{
+    width: 280px;
+    height: auto;
+    -webkit-filter:blur(10px);
+    filter: blur(10px);
+  }
+  #pj2{
+    width: 280px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+  }
+  #pj3{
+    width: 280px;
+    height: auto;
+    -webkit-filter: sepia(80%);
+    filter: sepia(80%);
+  }
+  #pj4{
+    width: 280px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+  }
+  #pj5{
+    width: 280px;
+    height: auto;
+  }
+  #pj6{
+    width: 280px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  #rj1{
+    width: 280px;
+    height: auto;
+    -webkit-filter:blur(10px);
+    filter: blur(10px);
+  }
+  #rj2{
+    width: 280px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+  }
+  #rj3{
+    width: 280px;
+    height: auto;
+    -webkit-filter: sepia(80%);
+    filter: sepia(80%);
+  }
+  #rj4{
+    width: 280px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  #rj5{
+    width: 280px;
+    height: auto;
+  }
+  #rj6{
+    width: 280px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/*inicio responsive*/
+@keyframes slidein {
+  from {
+    margin-top: 150%;
+    height: 300%
+  }
+  to {
+    margin-top: -5%;
+    height: 100%;
+  }
+}
+
+@media (max-width:900px) {
+  .contenido{
+    width: 100%;
+  }
+header{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.titulo{
+  width: 100%
+  text-align: center;
+  display: inline-block;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 60px;
+  order: 1;
+}
+.menu{
+  width: 100%
+
+  display: inline-block;
+  display: flex;
+  margin-top: -20px;
+  margin-right: 55px;
+  padding: 10px;
+  order: 2;
+}
+#central{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  }
+#fotocentral{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+.izquierdere{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.izquierda{
+  width: 100%;
+  }
+.derecha{
+  width: 100%;
+}
+#paisajeizquierda{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#retratoderecha{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#fondocentralpaisajes{
+  width: 100%;
+  height: 0 auto;
+}
+.textopai{
+  text-align: center;
+}
+.textoretra{
+text-align: center;
+}
+#fondocentralretratos{
+  width: 100%;
+  height: 0 auto;
+}
+#pj1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#pj2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#pj3{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#pj4{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#pj5{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#pj6{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#rj1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#rj2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#rj3{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#rj4{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#rj5{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+#rj6{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+}
+.contacto{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  order: 1;
+  border-radius: 0px;
+}
+.politicas{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  order: 2;
+}
+.redes{
+  width: 100%;
+  display: inline-block;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  order: 3;
+}
+.derechos{
+  width: 100%;
+  display: flex;
+  vertical-align: text-top;
+  flex-direction: column;
+  text-align: center;
+  order: 4;
+  border-radius: 0px 0px 10px 10px;
+}
+}
